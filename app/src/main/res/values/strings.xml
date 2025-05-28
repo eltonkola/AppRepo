@@ -70,4 +70,14 @@
     <string name="install_specific_version_button">Install this version</string>
     <string name="update_to_specific_version_button">Update to this version</string>
 
+    <string name="add_or_search_apps">Add or Search Apps</string>
+    <string name="owner_repo_or_search_hint">Enter owner/repo or search term</string>
+    <string name="add_by_full_name_button">Add by Full Name</string>
+    <string name="search_results_title">Search Results</string>
+    <string name="type_to_search_apps">Type 2+ characters to search GitHub</string>
+    <string name="featured_apps_title">Featured Apps</string>
+    <string name="no_featured_apps">No featured apps available right now.</string>
+    <string name="add_button_short">Add</string>
+
+
 </resources>

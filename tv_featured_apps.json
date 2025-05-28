@@ -1,0 +1,128 @@
+[
+  {
+    "id": "nisi",
+    "name": "eltonkola/nisi",
+    "description": "Simple Android TV launcher with a focus on privacy and security.",
+    "iconUrl": "https://github.com/eltonkola/nisi/blob/main/app/src/main/res/mipmap-hdpi/ic_launcher.png?raw=true",
+    "tags": ["launcher"]
+  },
+  {
+    "id": "LeanbackLauncher",
+    "name": "tsynik/LeanbackLauncher",
+    "description": "Google Leanback Launcher on steroids.",
+    "iconUrl": "https://avatars.githubusercontent.com/u/1551446?s=60&v=4",
+    "tags": ["launcher"]
+  },
+  {
+    "id": "SmartTube",
+    "name": "yuliskov/SmartTube",
+    "description": "SmartTube is a free and open-source advanced media player for Android TVs and TV boxes.",
+    "iconUrl": "https://avatars.githubusercontent.com/u/5897464?s=60&v=4",
+    "tags": ["youtube", "media", "player"]
+  },
+  {
+    "id": "flauncher",
+    "name": "CocoCR300/flauncher",
+    "description": "FLauncher is an open-source alternative launcher for Android TV, built with Flutter.",
+    "iconUrl": "https://avatars.githubusercontent.com/u/55771921?s=60&v=4",
+    "tags": ["launcher"]
+  },
+  {
+    "id": "tv-bro",
+    "name": "truefedex/tv-bro",
+    "description": "Simple web browser optimized to use with TV remote",
+    "iconUrl": "https://avatars.githubusercontent.com/u/1333872?s=60&v=4",
+    "tags": ["browser"]
+  },
+  {
+    "id": "Neo-Store",
+    "name": "NeoApplications/Neo-Store",
+    "description": "The modern and feature-rich F-Droid client for everyone!",
+    "iconUrl": "https://avatars.githubusercontent.com/u/101910870?s=60&v=4",
+    "tags": ["appstore", "f-droid"]
+  },
+  {
+    "id": "xbmc",
+    "name": "xbmc/xbmc",
+    "description": "Kodi is an award-winning free and open source software media player and entertainment hub for digital media.",
+    "iconUrl": "https://avatars.githubusercontent.com/u/199122?s=60&v=4",
+    "tags": ["media", "player"]
+  },
+  {
+    "id": "vlc-android",
+    "name": "videolan/vlc-android",
+    "description": "VLC on Android plays all the same files as the classical version of VLC, and features a media database for Audio and Video files and stream.",
+    "iconUrl": "https://avatars.githubusercontent.com/u/1389585?s=60&v=4",
+    "tags": ["media", "player"]
+  },
+  {
+    "id": "streamflix",
+    "name": "stantanasi/streamflix",
+    "description": "An Android TV and mobile app to stream movies and TV shows for free.",
+    "iconUrl": "https://github.com/stantanasi/streamflix/raw/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "tags": ["streaming", "tv", "movies"]
+  },
+  {
+    "id": "cloudstream",
+    "name": "recloudstream/cloudstream",
+    "description": "CloudStream is a media center that prioritizes and emphasizes complete freedom and flexibility for users and developers.",
+    "iconUrl": "https://avatars.githubusercontent.com/u/110591699?s=60&v=4",
+    "tags": ["streaming", "tv", "movies"]
+  },
+  {
+    "id": "Flixclusive",
+    "name": "flixclusiveorg/Flixclusive",
+    "description": "Flixclusive streaming app..",
+    "iconUrl": "https://avatars.githubusercontent.com/u/156817402?s=60&v=4",
+    "tags": ["streaming", "tv", "movies"]
+  },
+  {
+    "id": "digilogtv",
+    "name": "aldrinzigmundv/digilogtv",
+    "description": "A free and open-source TV news app.",
+    "iconUrl": "https://avatars.githubusercontent.com/u/77566475?s=60&v=4",
+    "tags": ["streaming" ,"live tv", "news"]
+  },
+  {
+    "id": "FireFiles",
+    "name": "gigabytedevelopers/FireFiles",
+    "description": "FireFiles is an all-in-one file management tool.",
+    "iconUrl": "https://avatars.githubusercontent.com/u/19718407?s=60&v=4",
+    "tags": ["file manager"]
+  },
+  {
+    "id": "filemanager",
+    "name": "openintents/filemanager",
+    "description": "OpenIntents file manage.",
+    "iconUrl": "https://avatars.githubusercontent.com/u/311533?s=60&v=4",
+    "tags": ["file manager"]
+  },
+  {
+    "id": "MaterialFiles",
+    "name": "zhanghai/MaterialFiles",
+    "description": "An open source Material Design file manager, for Android 5.0+.",
+    "iconUrl": "https://avatars.githubusercontent.com/u/4469895?s=60&v=4",
+    "tags": ["file manager"]
+  },
+  {
+    "id": "AmazeFileManager",
+    "name": "TeamAmaze/AmazeFileManager",
+    "description": "Simple and attractive Material Design file manager for Android.",
+    "iconUrl": "https://avatars.githubusercontent.com/u/30984365?s=60&v=4",
+    "tags": ["file manager"]
+  },
+  {
+    "id": "download-navi",
+    "name": "TachibanaGeneralLaboratories/download-navi",
+    "description": "Download Navi is a free and Open Source download manager for Android 4.4+.",
+    "iconUrl": "https://avatars.githubusercontent.com/u/45011572?s=60&v=4",
+    "tags": ["download manager"]
+  },
+  {
+    "id": "AerialViews",
+    "name": "theothernt/AerialViews",
+    "description": "A screensaver for Android TV devices including Nvidia Shield, Fire TV, and Chromecast with Google TV. Inspired by Apple TV's video screensaver.",
+    "iconUrl": "https://raw.githubusercontent.com/theothernt/AerialViews/refs/heads/master/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+    "tags": ["screensaver"]
+  }
+]

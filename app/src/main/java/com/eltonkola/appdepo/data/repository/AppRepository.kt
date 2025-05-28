@@ -3,10 +3,12 @@ package com.eltonkola.appdepo.data.repository
 import android.util.Log
 import com.eltonkola.appdepo.data.local.TrackedAppDao
 import com.eltonkola.appdepo.data.local.TrackedAppEntity
+import com.eltonkola.appdepo.data.remote.FeaturedAppsApiService
 import com.eltonkola.appdepo.data.remote.GithubApiService
 import com.eltonkola.appdepo.data.remote.models.GithubRelease
 import com.eltonkola.appdepo.data.remote.models.GithubRepo
 import com.eltonkola.appdepo.data.remote.models.SearchResponse
+import com.eltonkola.appdepo.ui.viewmodel.FeaturedApp
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.withContext
@@ -22,7 +24,8 @@ sealed class RepoResult<out T> {
 @Singleton
 class AppRepository @Inject constructor(
     private val trackedAppDao: TrackedAppDao,
-    private val githubApiService: GithubApiService
+    private val githubApiService: GithubApiService,
+    private val featuredAppsApiService: FeaturedAppsApiService
 ) {
     private val TAG = "AppRepository"
 
@@ -204,4 +207,15 @@ class AppRepository @Inject constructor(
             Log.i(TAG, "Deleted app: ${app.owner}/${app.repoName}")
         }
     }
+
+    suspend fun fetchFeaturedApps(): RepoResult<List<FeaturedApp>> {
+        return try {
+            val featuredApps = featuredAppsApiService.getFeaturedApps()
+            RepoResult.Success(featuredApps)
+        } catch (e: Exception) {
+            // Log the exception e.g. Timber.e(e, "Failed to fetch featured apps")
+            RepoResult.Error("Failed to load featured apps. Check connection.") // Or e.localizedMessage
+        }
+    }
+
 }
