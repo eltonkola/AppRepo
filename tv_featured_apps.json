@@ -7,6 +7,13 @@
     "tags": ["launcher"]
   },
   {
+    "id": "AppRepo",
+    "name": "eltonkola/AppRepo",
+    "description": "This App. A curated list of Android TV apps.",
+    "iconUrl": "https://github.com/eltonkola/AppRepo/blob/main/app/src/main/res/mipmap-hdpi/ic_launcher.png?raw=true",
+    "tags": ["launcher"]
+  },
+  {
     "id": "LeanbackLauncher",
     "name": "tsynik/LeanbackLauncher",
     "description": "Google Leanback Launcher on steroids.",

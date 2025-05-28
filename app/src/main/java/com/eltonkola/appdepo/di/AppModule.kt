@@ -18,6 +18,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 import com.eltonkola.appdepo.BuildConfig
+import com.eltonkola.appdepo.data.remote.FeaturedAppsApiService
 import com.eltonkola.appdepo.util.Constants
 
 @Module
@@ -52,6 +53,16 @@ object AppModule {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(GithubApiService::class.java)
+    }
+
+    @Provides
+    @Singleton
+    fun provideFeaturedAppsApiService(okHttpClient: OkHttpClient): FeaturedAppsApiService {
+        return Retrofit.Builder()
+            .client(okHttpClient)
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+            .create(FeaturedAppsApiService::class.java)
     }
 
     @Provides
