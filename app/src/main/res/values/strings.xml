@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">AppDepo</string>
+
+    <!-- Screen Titles -->
+    <string name="home_screen_title">AppDepo - GitHub Store</string>
+    <string name="add_app_title">Add New App</string>
+    <string name="app_details_title">App Details</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="add_button">Add</string>
+    <string name="search_button">Search</string>
+    <string name="install_button">Install</string>
+    <string name="update_button">Update</string>
+    <string name="reinstall_button">Reinstall</string>
+    <string name="open_button">Open</string>
+    <string name="retry_button">Retry</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="delete_button">Delete</string>
+    <string name="back_button_desc">Back</string>
+    <string name="delete_app_desc">Delete App</string>
+    <string name="confirm_dialog_title">Confirm Deletion</string>
+
+
+    <!-- Hints & Placeholders -->
+    <string name="search_apps_hint">Search GitHub Repositories...</string>
+    <string name="add_by_owner_repo_hint">owner/repository_name</string>
+
+    <!-- Messages & Statuses -->
+    <string name="no_apps_tracked">No apps tracked yet.</string>
+    <string name="add_your_first_app">Add Your First App</string>
+    <string name="error_fetching_data">Error fetching data. Please try again.</string>
+    <string name="app_added_successfully">App added!</string>
+    <string name="app_already_tracked">App is already tracked.</string>
+    <string name="failed_to_add_app">Failed to add app.</string>
+    <string name="searching_for_apps">Searching...</string>
+    <string name="no_search_results">No results found for your query.</string>
+    <string name="releases_label">Releases</string>
+    <string name="description_label">Description</string>
+    <string name="latest_release_label">Latest:</string>
+    <string name="installed_version_label">Installed:</string>
+    <string name="no_releases_found">No APK releases found for this app.</string>
+    <string name="no_apk_asset">No APK found in this release.</string>
+    <string name="downloading_apk">Downloading APK</string>
+    <string name="download_failed">Download failed</string>
+    <string name="install_failed">Could not initiate installation.</string>
+    <string name="app_not_found_error">App not found.</string>
+    <string name="app_data_unavailable">App data unavailable.</string>
+    <string name="could_not_open_app">Could not open app.</string>
+    <string name="app_install_initiated">App installation initiated.</string>
+    <string name="invalid_owner_repo_format">Invalid format. Use owner/repo_name.</string>
+    <string name="add_by_owner_repo_title">Add by Owner/Repository Name</string>
+    <string name="search_on_github_title">Search on GitHub</string>
+    <string name="cancel_download_button">Cancel Download</string>
+    <string name="delete_confirmation_message">Are you sure you want to remove %1$s from your tracked apps? This action cannot be undone.</string>
+
+
+    <!-- Chips & Badges -->
+    <string name="update_available_chip">Update Available!</string>
+    <string name="app_installed_chip">Installed</string>
+    <string name="app_not_installed_chip">Not Installed</string>
+    <string name="currently_installed_chip">Currently Installed</string>
+
+    <!-- App Details Screen -->
+    <string name="fetching_details">Fetching details...</string>
+    <string name="fetching_releases">Fetching releases...</string>
+    <string name="no_description_available">No description available.</string>
+    <string name="version_tag_label">Tag:</string>
+    <string name="published_date_label">Published:</string>
+    <string name="apk_size_label">Size:</string>
+    <string name="install_specific_version_button">Install this version</string>
+    <string name="update_to_specific_version_button">Update to this version</string>
+
+</resources>

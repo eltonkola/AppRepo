@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Base application theme. For a Compose-only app, this mainly affects the window
+        and system UI before Compose takes over. For TV, Theme.DeviceDefault.NoActionBar
+        or Theme.Leanback are common bases if not using a fully custom approach.
+    -->
+    <style name="Theme.AppDepo" parent="android:Theme.DeviceDefault.NoActionBar">
+        <!-- Ensure a dark background suitable for TV, matching your Compose theme's background -->
+        <item name="android:windowBackground">@color/app_background_dark</item>
+        <!-- Optional: make status and navigation bars transparent for a more immersive feel if desired -->
+        <!-- <item name="android:windowTranslucentStatus">true</item> -->
+        <!-- <item name="android:windowTranslucentNavigation">true</item> -->
+    </style>
+
+    <!-- Splash Screen Theme using SplashScreen API -->
+    <style name="Theme.AppDepo.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen's background color -->
+        <item name="windowSplashScreenBackground">@color/app_background_dark</item>
+
+        <!-- Use windowSplashScreenAnimatedIcon to add either a drawable or an
+             animated drawable. -->
+<!--        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round</item> &lt;!&ndash; Or your custom app icon &ndash;&gt;-->
+        <!-- <item name="windowSplashScreenAnimationDuration">1000</item> --> <!-- Optional: duration -->
+
+        <!-- Set the theme of the Activity that directly follows your splash screen. -->
+        <item name="postSplashScreenTheme">@style/Theme.AppDepo</item>
+    </style>
+</resources>

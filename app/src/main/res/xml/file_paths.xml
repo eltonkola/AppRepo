@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Path for APKs downloaded to the app's cache directory -->
+    <cache-path
+        name="apk_cache"
+        path="apks/" />
+
+    <!-- If you were to use DownloadManager to save to external public Downloads -->
+    <!-- <external-path name="external_apk_downloads" path="Download/" /> -->
+
+    <!-- If you save to app-specific external storage -->
+    <!-- <external-files-path name="my_apk_downloads" path="downloaded_apks/" /> -->
+</paths>
