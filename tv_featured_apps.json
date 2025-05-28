@@ -1,5 +1,6 @@
 [
   {
+    "category": "launcher",
     "id": "nisi",
     "name": "eltonkola/nisi",
     "description": "Simple Android TV launcher with a focus on privacy and security.",
@@ -7,13 +8,15 @@
     "tags": ["launcher"]
   },
   {
+    "category": "store",
     "id": "AppRepo",
     "name": "eltonkola/AppRepo",
     "description": "This App. A curated list of Android TV apps.",
     "iconUrl": "https://github.com/eltonkola/AppRepo/blob/main/app/src/main/res/mipmap-hdpi/ic_launcher.png?raw=true",
-    "tags": ["launcher"]
+    "tags": ["appstore"]
   },
   {
+    "category": "launcher",
     "id": "LeanbackLauncher",
     "name": "tsynik/LeanbackLauncher",
     "description": "Google Leanback Launcher on steroids.",
@@ -21,6 +24,7 @@
     "tags": ["launcher"]
   },
   {
+    "category": "launcher",
     "id": "SmartTube",
     "name": "yuliskov/SmartTube",
     "description": "SmartTube is a free and open-source advanced media player for Android TVs and TV boxes.",
@@ -28,6 +32,7 @@
     "tags": ["youtube", "media", "player"]
   },
   {
+    "category": "launcher",
     "id": "flauncher",
     "name": "CocoCR300/flauncher",
     "description": "FLauncher is an open-source alternative launcher for Android TV, built with Flutter.",
@@ -35,6 +40,7 @@
     "tags": ["launcher"]
   },
   {
+    "category": "browser",
     "id": "tv-bro",
     "name": "truefedex/tv-bro",
     "description": "Simple web browser optimized to use with TV remote",
@@ -42,6 +48,7 @@
     "tags": ["browser"]
   },
   {
+    "category": "store",
     "id": "Neo-Store",
     "name": "NeoApplications/Neo-Store",
     "description": "The modern and feature-rich F-Droid client for everyone!",
@@ -49,6 +56,7 @@
     "tags": ["appstore", "f-droid"]
   },
   {
+    "category": "media",
     "id": "xbmc",
     "name": "xbmc/xbmc",
     "description": "Kodi is an award-winning free and open source software media player and entertainment hub for digital media.",
@@ -56,6 +64,7 @@
     "tags": ["media", "player"]
   },
   {
+    "category": "media",
     "id": "vlc-android",
     "name": "videolan/vlc-android",
     "description": "VLC on Android plays all the same files as the classical version of VLC, and features a media database for Audio and Video files and stream.",
@@ -63,6 +72,7 @@
     "tags": ["media", "player"]
   },
   {
+    "category": "streaming",
     "id": "streamflix",
     "name": "stantanasi/streamflix",
     "description": "An Android TV and mobile app to stream movies and TV shows for free.",
@@ -70,6 +80,7 @@
     "tags": ["streaming", "tv", "movies"]
   },
   {
+    "category": "streaming",
     "id": "cloudstream",
     "name": "recloudstream/cloudstream",
     "description": "CloudStream is a media center that prioritizes and emphasizes complete freedom and flexibility for users and developers.",
@@ -77,6 +88,7 @@
     "tags": ["streaming", "tv", "movies"]
   },
   {
+    "category": "streaming",
     "id": "Flixclusive",
     "name": "flixclusiveorg/Flixclusive",
     "description": "Flixclusive streaming app..",
@@ -84,6 +96,7 @@
     "tags": ["streaming", "tv", "movies"]
   },
   {
+    "category": "streaming",
     "id": "digilogtv",
     "name": "aldrinzigmundv/digilogtv",
     "description": "A free and open-source TV news app.",
@@ -91,6 +104,7 @@
     "tags": ["streaming" ,"live tv", "news"]
   },
   {
+    "category": "file manager",
     "id": "FireFiles",
     "name": "gigabytedevelopers/FireFiles",
     "description": "FireFiles is an all-in-one file management tool.",
@@ -98,6 +112,7 @@
     "tags": ["file manager"]
   },
   {
+    "category": "file manager",
     "id": "filemanager",
     "name": "openintents/filemanager",
     "description": "OpenIntents file manage.",
@@ -105,6 +120,7 @@
     "tags": ["file manager"]
   },
   {
+    "category": "file manager",
     "id": "MaterialFiles",
     "name": "zhanghai/MaterialFiles",
     "description": "An open source Material Design file manager, for Android 5.0+.",
@@ -112,6 +128,7 @@
     "tags": ["file manager"]
   },
   {
+    "category": "file manager",
     "id": "AmazeFileManager",
     "name": "TeamAmaze/AmazeFileManager",
     "description": "Simple and attractive Material Design file manager for Android.",
@@ -119,6 +136,7 @@
     "tags": ["file manager"]
   },
   {
+    "category": "download manager",
     "id": "download-navi",
     "name": "TachibanaGeneralLaboratories/download-navi",
     "description": "Download Navi is a free and Open Source download manager for Android 4.4+.",
@@ -126,6 +144,7 @@
     "tags": ["download manager"]
   },
   {
+    "category": "screensaver",
     "id": "AerialViews",
     "name": "theothernt/AerialViews",
     "description": "A screensaver for Android TV devices including Nvidia Shield, Fire TV, and Chromecast with Google TV. Inspired by Apple TV's video screensaver.",
